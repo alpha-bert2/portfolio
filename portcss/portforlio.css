@@ -17,6 +17,7 @@ header{
     justify-content: space-between;
     max-width: 90%;
     margin: auto;
+    flex-wrap: wrap;
     align-items: center;
     min-height: 9vh;
     ol{
