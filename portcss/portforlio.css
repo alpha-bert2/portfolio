@@ -91,4 +91,18 @@ header{
     display: flex;
     gap: 1rem;
 }
-
+@media(max-width:400px){
+    .menu{
+        ol{
+            display: flex;
+            justify-content: space-between;
+        }
+        .icon{
+            display: flex;
+            justify-content: center;
+        }
+    }
+    .text{
+        text-align: center;
+    }
+}
