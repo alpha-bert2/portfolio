@@ -261,7 +261,7 @@ header{
         color: orangered;
         z-index: 2;
         letter-spacing: 0.4rem;
-        font-weight: bold;
+        font-weight: 900;
         
     }
 }
@@ -310,6 +310,57 @@ header{
     div:hover{
         transform: scale(1.02);
     }
+}
+/*css styling for experience section*/
+#skills{
+    background-color:rgba(26, 18, 18, 0.459);
+    min-height: 40vh;
+}
+.experience{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 2rem;
+}
+/*css styling for bars*/
+.bars{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    width: 50%;
+    margin: auto;
+    span{
+        display: flex;
+        flex-direction: column;
+        gap: 0.2rem;
+    }
+}
+.mamaBar{
+    background-color: white;    
+    height: 0.4rem;
+    border-radius: 4rem;
+}
+.colorbar{
+    background-color:orangered;
+    height: 100%;
+    border-radius: 4rem;
+}
+.colorbar:hover{
+    border-radius: 4rem 4rem 0rem 4rem;
+}
+.javas{
+    width: 80%;
+}
+.htmlBro{
+    width: 85%;
+}
+.cssMan{
+    width: 50%;
+}
+.figma{
+    width: 70%;
 }
 
 
